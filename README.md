@@ -9,13 +9,12 @@ This repository demonstrates the core Next.js concepts:
 - Project setup with create-next-app
 - App Router basics
 - Pages and routes (page.tsx)
-- Layouts (layout.tsx)
-- Navigation using the <Link> component
+- Layouts (`layout.tsx`)
+- Navigation using the `<Link>` component
 - Data fetching in Server Components
-- Updating data with revalidate and no-store
-- Loading and error handling (loading.tsx / error.tsx)
+- Updating data with `revalidate` and `no-store`
+- Loading and error handling (`loading.tsx` / `error.tsx`)
 - Styling with Tailwind CSS
-- Styled pages and simple UI structure
 
 At this stage, the project includes:
 
