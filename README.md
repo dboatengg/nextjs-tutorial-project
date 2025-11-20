@@ -1,28 +1,86 @@
-# Next.js Intro Before Movie App
+# Movie Browsing App
 
-This project contains all the code built so far in the “Getting Started with Next.js” tutorial, covering the fundamentals of the App Router before moving into the full movie application.
+This project follows the full “Getting Started with Next.js” tutorial on my personal website. It includes everything built along the way, from the very first page to the complete Movie Browsing application.
 
-## What’s Included
+It is designed as an educational project to introducee beginners to Next.js with practical, real-world examples.
 
-This repository demonstrates the core Next.js concepts:
+## What This Project Covers
+
+This repository demonstrates the essential concepts of the Next.js App Router:
+
+### Core Foundations
 
 - Project setup with create-next-app
-- App Router basics
-- Pages and routes (page.tsx)
-- Layouts (`layout.tsx`)
-- Navigation using the `<Link>` component
-- Data fetching in Server Components
-- Updating data with `revalidate` and `no-store`
-- Loading and error handling (`loading.tsx` / `error.tsx`)
-- Styling with Tailwind CSS
+- Understanding the app/ directory
+- Pages (page.tsx) and segments
+- Shared layouts (layout.tsx)
+- Navigation with the <Link> component
+- Using Server and Client Components correctly
+- Data Fetching
+    - Fetching data in Server Components
+    - Using revalidate for incremental updates
+    - Using cache: "no-store" for always-fresh data
+    - Loading and error handling with:
+        - `loading.tsx`
+        - `error.tsx`
 
-At this stage, the project includes:
+- Styling
+    - Tailwind CSS setup and usage
+    - Styling layouts, pages, and UI components
+- Using the <Image /> component for optimized images
+
+
+
+## Movie Browsing App Features
+
+The second half of the tutorial builds a practical Movie App using the TMDB API.
+It includes:
+
+### Movie Listing
+- Fetches popular movies from TMDB
+- Shows optimized poster images using <Image />
+- Displays titles and descriptions in a responsive grid
+
+### Movie Search
+
+- Real-time filtering using a Client Component
+- Instant updates as the user types
+- “No movies found” indicator
+- Secure server-side fetching
+
+### Movie Details Page
+- Dynamic route: /movies/[id]
+- Fetching detailed information for each movie
+- Loading and error states
+
+### Navigation & Pages
 
 - A homepage
-- An About page
-- A Posts page (using a placeholder API)
-- A shared layout with navigation
-- Tailwind-based styling
+- An About page 
+- A navigation bar linking to:
+    - Home
+    - About
+    - Movies
+
+## Project Structure
+
+```lua
+app/
+ ├─ layout.tsx
+ ├─ page.tsx
+ ├─ about/
+ ├─ movies/
+ │    ├─ page.tsx
+ │    ├─ [id]/
+ │    │    ├─ page.tsx
+ │    │    ├─ loading.tsx
+ │    │    └─ error.tsx
+ │    ├─ loading.tsx
+ │    └─ error.tsx
+ └─ components/
+      └─ MoviesSearch.tsx
+
+```
 
 ## Getting Started
 
