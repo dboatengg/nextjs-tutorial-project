@@ -1,19 +1,17 @@
-// // import Link from "next/link";
+// import Link from "next/link";
 
-// // export default function About() {
-// //   return (
-// //     <main>
-// //       <h1>About This App</h1>
-// //       <p>This page lives at /about.</p>
+// export default function About() {
+//   return (
+//     <main>
+//       <h1>About This App</h1>
+//       <p>This page lives at /about.</p>
 
-// //       <p>
-// //         <Link href="/">Back to Home</Link>
-// //       </p>
-// //     </main>
-// //   );
-// // }
-
-
+//       <p>
+//         <Link href="/">Back to Home</Link>
+//       </p>
+//     </main>
+//   );
+// }
 
 /*====================UPDATE 1=============================*/
 // import Link from "next/link";
@@ -43,7 +41,6 @@
 //   );
 // }
 
-
 /*====================UPDATE 2=============================*/
 import Link from "next/link";
 import Image from "next/image";
@@ -63,9 +60,9 @@ export default function About() {
         <div>
           <h1 className="text-2xl font-semibold mb-4">About This App</h1>
           <p>
-            This Next.js project teaches you how to work with the Nextjs' core concepts to build a fully functional Movie Browsing Application.
+            This Next.js project teaches you how to work with the Nextjs core
+            concepts to build a fully functional Movie Browsing Application.
           </p>
-
         </div>
       </div>
     </main>
