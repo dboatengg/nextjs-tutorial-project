@@ -4,6 +4,10 @@ This project follows the full “Getting Started with Next.js” tutorial on my 
 
 It is designed as an educational project to introducee beginners to Next.js with practical, real-world examples.
 
+## Read Article
+
+[Nextjs Tutorial for Beginners](https://dicksonboateng.com/blog/nextjs-tutorial-beginners)
+
 ## What This Project Covers
 
 This repository demonstrates the essential concepts of the Next.js App Router:
@@ -17,19 +21,18 @@ This repository demonstrates the essential concepts of the Next.js App Router:
 - Navigation with the <Link> component
 - Using Server and Client Components correctly
 - Data Fetching
-    - Fetching data in Server Components
-    - Using revalidate for incremental updates
-    - Using cache: "no-store" for always-fresh data
-    - Loading and error handling with:
-        - `loading.tsx`
-        - `error.tsx`
+
+  - Fetching data in Server Components
+  - Using revalidate for incremental updates
+  - Using cache: "no-store" for always-fresh data
+  - Loading and error handling with:
+    - `loading.tsx`
+    - `error.tsx`
 
 - Styling
-    - Tailwind CSS setup and usage
-    - Styling layouts, pages, and UI components
+  - Tailwind CSS setup and usage
+  - Styling layouts, pages, and UI components
 - Using the <Image /> component for optimized images
-
-
 
 ## Movie Browsing App Features
 
@@ -37,6 +40,7 @@ The second half of the tutorial builds a practical Movie App using the TMDB API.
 It includes:
 
 ### Movie Listing
+
 - Fetches popular movies from TMDB
 - Shows optimized poster images using <Image />
 - Displays titles and descriptions in a responsive grid
@@ -49,6 +53,7 @@ It includes:
 - Secure server-side fetching
 
 ### Movie Details Page
+
 - Dynamic route: /movies/[id]
 - Fetching detailed information for each movie
 - Loading and error states
@@ -56,11 +61,11 @@ It includes:
 ### Navigation & Pages
 
 - A homepage
-- An About page 
+- An About page
 - A navigation bar linking to:
-    - Home
-    - About
-    - Movies
+  - Home
+  - About
+  - Movies
 
 ## Project Structure
 
